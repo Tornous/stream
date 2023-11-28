@@ -15,17 +15,12 @@
     </body>
     <body>
         <h2>Lucas Mutter</h2>
-        <!-- Add a placeholder for the Twitch embed -->
-        <div id="twitch-embed" width="1000" height="600"></div>
-
-        <!-- Load the Twitch embed script -->
-        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-        <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-        <script type="text/javascript">
-         new Twitch.Player("twitch-embed", {
-            channel: "lucasgames8957"
-         });
-       </script>
+        <iframe src="https://player.twitch.tv/?channel=lucasgames8957&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="600" width="1000"></iframe>
+        <iframe
+        id="chat_embed"
+        src="https://www.twitch.tv/embed/lucasgames8957/chat?parent=Tornous.github.io"
+        height="500"
+        width="350">
+        </iframe>
     </body>
 </html>
